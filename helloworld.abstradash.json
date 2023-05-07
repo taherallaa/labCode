@@ -1,0 +1,76 @@
+{
+    "name": "Hello World",
+    "layout": {
+        "props": {},
+        "version": "0.2",
+        "slot": {
+            "48a1a57c-6a60-468c-a3ab-14427f125f38": {
+                "id": "48a1a57c-6a60-468c-a3ab-14427f125f38",
+                "type": "click-input",
+                "props": {
+                    "label": "\"Apply Learning\""
+                },
+                "colStart": 0,
+                "rowStart": 1,
+                "colEnd": 3,
+                "rowEnd": 2,
+                "events": {
+                    "click": "start()"
+                }
+            },
+            "8c2db883-0d06-42c0-95df-2955abd97e10": {
+                "id": "8c2db883-0d06-42c0-95df-2955abd97e10",
+                "type": "image-input",
+                "props": {
+                    "label": "\"Test Image\""
+                },
+                "colStart": 0,
+                "rowStart": 4,
+                "colEnd": 3,
+                "rowEnd": 9,
+                "events": {},
+                "variable": "image"
+            },
+            "6853a4aa-7997-4a7a-be73-dadd58dc1624": {
+                "id": "6853a4aa-7997-4a7a-be73-dadd58dc1624",
+                "type": "image-output",
+                "props": {
+                    "image": "get_image()"
+                },
+                "colStart": 8,
+                "rowStart": 1,
+                "colEnd": 10,
+                "rowEnd": 10,
+                "events": {}
+            },
+            "b848bfa6-d2f5-4615-909c-678e46663906": {
+                "id": "b848bfa6-d2f5-4615-909c-678e46663906",
+                "type": "text-output",
+                "props": {
+                    "text": "text",
+                    "size": "'large'"
+                },
+                "colStart": 3,
+                "rowStart": 16,
+                "colEnd": 6,
+                "rowEnd": 17,
+                "events": {}
+            },
+            "4780d17e-c7f7-4d10-9216-2947195bfbd7": {
+                "id": "4780d17e-c7f7-4d10-9216-2947195bfbd7",
+                "type": "click-input",
+                "props": {
+                    "label": "\"Classify\""
+                },
+                "colStart": 0,
+                "rowStart": 11,
+                "colEnd": 3,
+                "rowEnd": 12,
+                "events": {
+                    "click": "neural()"
+                }
+            }
+        }
+    },
+    "title": "helloworld"
+}
