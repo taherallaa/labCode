@@ -2,7 +2,7 @@ import cv2
 
 dim = (300, 300)
  
-for i in range(10):
+for i in range(11):
     img1 = cv2.imread(f"data/car.{i}.jpeg",cv2.COLOR_BGR2GRAY)
     img2 = cv2.imread(f"data/plane.{i}.jpeg",cv2.COLOR_BGR2GRAY)
 

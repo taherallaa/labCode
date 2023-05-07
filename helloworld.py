@@ -16,7 +16,7 @@ text = "Type is : ???"
 def start():
     global weights, T, P
 
-    for i in range(10):
+    for i in range(11):
         P.append( get_feature(cv2.imread(f"data2/car.{i}.jpeg",cv2.IMREAD_GRAYSCALE)) )
         T.append(1)
         
