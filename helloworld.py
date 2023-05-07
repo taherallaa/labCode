@@ -1,9 +1,8 @@
-# 🐍 This is the Python code linked to your Dash
+
 import cv2
 import numpy as np
-# 🔄 Code here is executed at each restart of the app
 
-# 📍 This is the place where you set the initial state of your app...
+
 counter = 0
 P = []
 T = []
@@ -96,13 +95,3 @@ def neural():
     print(n)
     text = "Type is : Car" if n >=0 else "Type is : Plane"
 
-# 🔗 Everything defined here is available to use on the Layout Editor
-"""
-
-hamming network
-hebbian network
-commpetitive learning
-
-
-
-"""
